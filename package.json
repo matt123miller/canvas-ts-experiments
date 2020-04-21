@@ -1,0 +1,32 @@
+{
+    "name": "ts-canvas",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "description": "Messing with TypeScript.",
+    "license": "MIT",
+    "scripts": {
+        "clean:js": "find ./dist -name \"*.js\" -type f -delete && find ./dist -name \"*.js.map\" -type f -delete",
+        "tsc": "tsc",
+        "tsc:w": "tsc -w",
+        "server": "live-server ./dist --cors -d",
+        "watch": "webpack --watch",
+        "dev": "concurrently \"npm run server\" \"npm run watch\"",
+        "build": "webpack"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "concurrently": "^5.1.0",
+        "copy-webpack-plugin": "^5.1.1",
+        "html-webpack-plugin": "^3.2.0",
+        "live-server": "^1.2.1",
+        "ts-loader": "^6.2.2",
+        "typescript": "^3.8.3",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.1"
+    }
+}
