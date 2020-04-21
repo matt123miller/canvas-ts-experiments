@@ -11,10 +11,10 @@
         "clean:js": "find ./dist -name \"*.js\" -type f -delete && find ./dist -name \"*.js.map\" -type f -delete",
         "tsc": "tsc",
         "tsc:w": "tsc -w",
+        "build": "webpack",
         "server": "live-server ./dist --cors -d",
         "watch": "webpack --watch",
-        "dev": "concurrently \"npm run server\" \"npm run watch\"",
-        "build": "webpack"
+        "dev": "concurrently \"npm run server\" \"npm run watch\""
     },
     "dependencies": {},
     "devDependencies": {
