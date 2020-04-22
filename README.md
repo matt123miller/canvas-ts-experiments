@@ -5,6 +5,8 @@ I'm also interested in playing with HTML Canvas because I like the feedback loop
 
 So why not combine both things!
 
+This was originally based on the ideas in [this blog post](https://codeburst.io/canvas-animations-in-typescript-97ba0163cb19) which showed me some examples on creating and moving objects on a canvas.
+
 ## Requirements
 
 NodeJS for build tooling
