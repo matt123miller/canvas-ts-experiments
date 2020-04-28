@@ -5,7 +5,9 @@ I'm also interested in playing with HTML Canvas because I like the feedback loop
 
 So why not combine both things!
 
-This was originally based on the ideas in [this blog post](https://codeburst.io/canvas-animations-in-typescript-97ba0163cb19) which showed me some examples on creating and moving objects on a canvas.
+This was originally based on the ideas in [this blog post](https://codeburst.io/canvas-animations-in-typescript-97ba0163cb19) which showed me some examples on creating and moving objects on a canvas. But at this point I've gone off on my own.
+
+A lot of the theory involved with the hexagons is based on the excellent articles from [red blob games](https://www.redblobgames.com/grids/hexagons/).
 
 ## Requirements
 

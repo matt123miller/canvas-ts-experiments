@@ -11,9 +11,9 @@
         "clean:js": "find ./dist -name \"*.js\" -type f -delete && find ./dist -name \"*.js.map\" -type f -delete",
         "tsc": "tsc",
         "tsc:w": "tsc -w",
-        "build": "webpack",
+        "build": "webpack --mode=production",
         "server": "live-server ./dist --cors -d",
-        "watch": "webpack --watch",
+        "watch": "webpack --mode=development --watch",
         "dev": "concurrently \"npm run server\" \"npm run watch\""
     },
     "dependencies": {},

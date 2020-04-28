@@ -1,3 +1,21 @@
 
-Todo:
-  ☐ Item
+
+Higher level goals: 
+    ☐ Eventually allow a user to choose shapes to render
+
+Random tidbits:
+    ☐ Allow a user to create a randomly shaped n-sided polygon
+        - I know I did this in Swift years ago, it must be locked in my brain somewhere.
+        ✔ Create a uniform n-sided polygon @done(20-04-28 18:23)
+
+Configuration system:
+    ☐ User selects how many shapes to draw
+    ☐ Configurable background pattern
+    ☐ Export to image?
+    ✔ Switch between simple and complex renderers @done(20-04-28 18:18)
+    ☐ All optons should live update the canvas
+
+Hexagons:
+    ✔ pointy vs flat hexagons? @done(20-04-28 15:41)
+        ✔ I'll go with flat for now @done(20-04-28 18:23)
+    ☐ User input for rows and columns
