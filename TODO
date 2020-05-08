@@ -7,6 +7,7 @@ Random tidbits:
     ☐ Allow a user to create a randomly shaped n-sided polygon
         - I know I did this in Swift years ago, it must be locked in my brain somewhere.
         ✔ Create a uniform n-sided polygon @done(20-04-28 18:23)
+    - Can you 'compose' images by passing the same canvas instance to different classes etc. that alter it? I'm not currently redrawing an animation over time so I imagine this works.
 
 Configuration system:
     ☐ User selects how many shapes to draw
